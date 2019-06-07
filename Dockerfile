@@ -12,7 +12,7 @@ RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
 
 RUN apt-get update && \
   apt-get -y upgrade && \
-  apt-get -y install nodejs yarn \
+  apt-get -y install nodejs yarn
 
 RUN mkdir -p /tmp/koxinga-src
 WORKDIR /tmp/koxinga-src
